@@ -5,7 +5,7 @@ export default class KosulluGoster extends Component {
         super(props)
 
         this.state = {
-            loginOlduMu: false
+            loginOlduMu: true
         }
     }
   render() {
@@ -25,7 +25,11 @@ export default class KosulluGoster extends Component {
 
     )*/
 
-        return this.state.loginOlduMu && <div>Hosgeldiniz</div>
+        return this.state.loginOlduMu && <div >
+             <h1 class="text-3xl font-bold underline">
+             Hello world!
+                </h1>
+        </div>
    
   }
 }
